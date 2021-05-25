@@ -1,0 +1,7 @@
+local_costmap:
+   width: 5.0
+   height: 5.0
+   origin_x: -2.5
+   origin_y: -2.5
+   static_map: false
+   rolling_window: true 
