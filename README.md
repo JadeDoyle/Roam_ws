@@ -1,2 +1,2 @@
 # Roam_ws
-The catkin workspace used in simulation of the ROSM platform.
+The catkin packages used in simulation of the ROSM platform.
