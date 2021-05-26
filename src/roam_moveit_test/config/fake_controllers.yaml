@@ -1,0 +1,30 @@
+controller_list:
+  - name: fake_roam_complete_controller
+    joints:
+      - px_link_joint
+      - py_link_joint
+      - base_link_joint
+      - link_1_joint
+      - link_2_joint
+      - link_3_joint
+      - link_4_joint
+      - link_5_joint
+      - link_6_joint
+      - link_7_joint
+  - name: fake_roam_arm_controller
+    joints:
+      - link_1_joint
+      - link_2_joint
+      - link_3_joint
+      - link_4_joint
+      - link_5_joint
+      - link_6_joint
+      - link_7_joint
+  - name: fake_roam_base_controller
+    joints:
+      - px_link_joint
+      - py_link_joint
+      - base_link_joint
+initial:  # Define initial robot poses.
+  - group: roam_complete
+    pose: home
